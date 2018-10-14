@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Platform} from 'react-native';
+import { Text, View, TouchableOpacity} from 'react-native';
 import {styles} from './styles'
 
 export default class App extends React.Component {

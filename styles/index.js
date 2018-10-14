@@ -4,8 +4,8 @@ import {StyleSheet, Platform} from 'react-native'
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: 'center',
       justifyContent: 'center',
+      alignContent: 'center',
     },
     basetext: {
       fontSize: 18,
@@ -23,6 +23,7 @@ export const styles = StyleSheet.create({
     basicButtonText: {
       color: '#fff',
       fontSize: 18,
+      margin: 20,
       fontFamily: Platform.OS === 'ios' ? 'HelveticaNeue-CondensedBold' : 'sans-serif',
   
     },
@@ -31,5 +32,10 @@ export const styles = StyleSheet.create({
       fontWeight: 'bold',
       color: 'red',
       fontSize: 60,
+    },
+    testbox: {
+        width: 50,
+        height: 50,
+        backgroundColor: 'limegreen',
     }
   });
