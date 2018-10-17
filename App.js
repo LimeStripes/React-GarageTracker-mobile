@@ -1,15 +1,14 @@
 import React from 'react';
 import { StyleSheet, View, Platform } from 'react-native';
-import Stacks from './Stacks';
+import {StatusBar} from 'react-native';
 import {styles} from './styles';
+import Stacks from './Stacks';
 
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Stacks />
-      </View>
+        <Stacks style={styles.container}></Stacks>        
     );
   }
 }

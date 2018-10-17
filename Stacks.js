@@ -7,10 +7,6 @@ import AddCarView from './AddCarView';
 
 
 export default Stacks = createStackNavigator ({
-	Test: {
-		screen: AlignmentTest,
-		navigationOptions: {}
-	},
 	Garage: {
 		screen: GarageView,
 		navigationOptions: {}
@@ -20,7 +16,4 @@ export default Stacks = createStackNavigator ({
 		screen: AddCarView,
 		navigationOptions: {}
 	},
-
-	
-
 })
